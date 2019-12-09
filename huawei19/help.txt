@@ -1,0 +1,118 @@
+int main()
+{
+	
+	//读取车辆信息 存储在car_ptr中
+/*
+		ifstream icin;
+		icin.open("car.txt");
+		string temp;
+		//int car_count = 0;
+		car *car_ptr[10240];// 车辆一共有10240
+		int i = 0;
+		string car_number_temp;
+
+		while (getline(icin, temp, ')'))
+		{
+			//car_count++;
+			cout << temp << endl;//读取数据，放入类型为string的temp中
+			car_ptr[i] = new car();
+*/
+			/*
+			string carNmber_tepm;//复制车辆车号
+			for (int car_number_temp = 2; (temp[car_number_temp] != ',') && (temp[car_number_temp] != ' '); car_number_temp++)
+			carNmber_tepm.push_back(temp[car_number_temp]);
+			car_ptr[i]->car_number = carNmber_tepm;
+			//cout << car_ptr[i]->car_number << endl;//输出车辆号码测试
+			*/
+
+			/*
+			string car_origination_temp;//复制车辆始发地
+			int count_carOrigination = 2;
+
+			for (count_carOrigination;; count_carOrigination++)
+			if (temp[count_carOrigination] == ',')
+			{
+			int cut_count_carOrigination = count_carOrigination + 3;
+			for (count_carOrigination; count_carOrigination <= cut_count_carOrigination; count_carOrigination++)
+			{
+			if ((temp[count_carOrigination] != ',') && (temp[count_carOrigination] != ' '))
+			car_origination_temp.push_back(temp[count_carOrigination]);
+			}
+			break;
+			}
+			car_ptr[i]->car_origination = car_origination_temp;
+			//cout << car_ptr[i]->car_origination << endl;//输出车辆出发地测试
+			*/
+
+			/*
+			string car_destionation_temp;//复制车辆目的地
+			int count_carDestionation = 2;
+			int count_comma = 0;
+			for (count_carDestionation;; count_carDestionation++)
+			{
+			if (temp[count_carDestionation] == ',')
+			count_comma++;
+			if (count_comma == 2)
+			{
+			int cut_count_carDestionation = count_carDestionation + 3;
+			for (count_carDestionation; count_carDestionation <= cut_count_carDestionation; count_carDestionation++)
+			{
+			if ((temp[count_carDestionation] != ',') && (temp[count_carDestionation] != ' '))
+			car_destionation_temp.push_back(temp[count_carDestionation]);
+			}
+			break;
+			}
+			}
+			car_ptr[i]->car_destination = car_destionation_temp;
+			//cout << car_ptr[i]->car_destination << endl;//输出车辆目的地测试
+			*/
+
+			/*
+			string car_maxSpeed_temp;//复制车辆最高速度
+			int  count_maxSpeed = 2;
+			int count_comma_speed = 0;
+
+			for (count_maxSpeed;; count_maxSpeed++)
+			{
+			if (temp[count_maxSpeed] == ',')
+			count_comma_speed++;
+			if (count_comma_speed == 3)
+			{
+			int cut_count_maxSpeed = count_maxSpeed + 3;
+			for (count_maxSpeed; count_maxSpeed <= cut_count_maxSpeed; count_maxSpeed++)
+			{
+			if ((temp[count_maxSpeed] != ',') && (temp[count_maxSpeed] != ' '))
+			car_maxSpeed_temp.push_back(temp[count_maxSpeed]);
+			}
+			break;
+			}
+			}
+			car_ptr[i]->car_maxSpeed = car_maxSpeed_temp;
+			//cout << car_ptr[i]->car_maxSpeed << endl;
+			*/
+
+			/*
+			string car_planTime_temp;
+			int count_planTime = 2;
+			int count_comma_time = 0;
+			for (count_planTime;; count_planTime++)
+			{
+				if (temp[count_planTime] == ',')
+					count_comma_time++;
+				if (count_comma_time == 4)
+				{
+					int cut_count_planTime = count_planTime + 3;
+					for (count_planTime; count_planTime <= cut_count_planTime; count_planTime++)
+					{
+						if ((temp[count_planTime] != ',') && (temp[count_planTime] != ' '))
+							car_planTime_temp.push_back(temp[count_planTime]);
+					}
+					break;
+				}
+			}
+			car_ptr[i]->car_planTime = car_planTime_temp;
+			cout << car_ptr[i]->car_planTime << endl;//测试车辆到达时间测试
+			*/
+//			i++;
+//		}
+	
